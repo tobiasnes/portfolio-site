@@ -1,0 +1,120 @@
+#root {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+  font-family: yakuzaFont;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+@font-face {
+  font-family: yakuzaFont;
+  src: url("C:\Users\luffy\Desktop\Portfolio-Website\portfolio\public\edosz.ttf") format("opentype");
+}
+
+.card2 {
+  max-width: 45rem;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 6px;
+  background: linear-gradient(#ec0202, #5b0000);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+  font-weight: 500;
+  /*font-family: yakuzaFont;*/
+  
+}
+
+.name {
+  font-family: yakuzaFont;
+}
+
+.leftSideHeader {
+  font-family: "Verdana";
+  font-weight: bolder;
+}
+
+.rightSideHeader {
+  font-family: "Verdana";
+  font-weight: lighter;
+}
+
+.leftSideSubHeader {
+  font-family: "Verdana";
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.rightSideSubHeader {
+  font-family: "Verdana";
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.leftSideText {
+  text-align: left;
+  font-family: "Verdana";
+  font-weight: lighter;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.leftSideHeader2 {
+  text-align: left;
+  font-family: "Verdana";
+  font-weight: bolder;
+}
+
+.text {
+  font-family: "Verdana";
+  font-weight: lighter;
+}
+
+.header {
+  font-family: "Verdana";
+  font-weight: bolder;
+}
+
+.button {
+  background-color: #000000;
+  border: 1px solid rgb(255, 255, 255);
+}

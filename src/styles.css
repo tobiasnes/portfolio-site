@@ -1,0 +1,86 @@
+@font-face {
+  font-family: yakuzaFont;
+  src: url("C:\Users\luffy\Desktop\Portfolio-Website\portfolio\public\edosz.ttf") format("opentype");
+}
+
+/* {
+  font-family: yakuzaFont;
+}*/
+
+.App {
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.commentContainer {
+  margin-top: 6px;
+  /*background-color: #990000e0;*/
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+  width: 300px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: linear-gradient(#ec0202, #5b0000);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  font-family: yakuzaFont;
+}
+
+.commentContainer:hover {
+  background-color: #ffffffbf;
+  font-family: yakuzaFont;
+}
+
+.inputContainer {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  font-family: yakuzaFont;
+}
+
+.inputContainer > span {
+  margin-top: 5px;
+  font-family: yakuzaFont;
+}
+
+.inputContainer__input {
+  margin: 10px 0 0px 0;
+  padding: 5px;
+  display: flex;
+  border: 1px solid rgb(0, 0, 0);
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #000000;
+  font-family: yakuzaFont;
+}
+
+.first_input {
+  margin: 0;
+  font-family: yakuzaFont;
+}
+
+.commentContainer > span {
+  margin: 0 5px;
+  font-family: yakuzaFont;
+}
+
+.reply {
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: yakuzaFont;
+}
+
+.comment {
+  color: #ffffff;
+  background-color: #000000;
+  letter-spacing: 0.8px;
+  font-family: yakuzaFont;
+}
+
