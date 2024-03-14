@@ -44,7 +44,7 @@
 
 @font-face {
   font-family: yakuzaFont;
-  src: url("C:\Users\luffy\Desktop\Portfolio-Website\portfolio\public\edosz.ttf") format("opentype");
+  src: url("../edosz.ttf") format("opentype");
 }
 
 .card2 {
