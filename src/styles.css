@@ -22,7 +22,8 @@
   width: 300px;
   cursor: pointer;
   border-radius: 5px;
-  background: linear-gradient(#ec0202, #5b0000);
+  /*background: linear-gradient(#ec0202, #5b0000);*/
+  background: linear-gradient(#434343, #161616);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   font-family: yakuzaFont;
 }

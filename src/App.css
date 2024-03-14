@@ -52,7 +52,8 @@
   margin: 3rem auto;
   padding: 2rem;
   border-radius: 6px;
-  background: linear-gradient(#ec0202, #5b0000);
+  /*background: linear-gradient(#ec0202, #5b0000);*/
+  background: linear-gradient(#434343, #161616);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
   position: relative;
   font-weight: 500;
@@ -115,6 +116,7 @@
 }
 
 .button {
-  background-color: #000000;
+  /*background-color: #000000;*/
+  background: linear-gradient(#ec0202, #5b0000);
   border: 1px solid rgb(255, 255, 255);
 }
