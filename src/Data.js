@@ -1,6 +1,6 @@
 export const WORK_EXPERIENCE = [
     {
-        workTitle: 'Store Employee', workDate: 'June 2023 - Present',
+        workTitle: 'Store Employee', workDate: 'June 2024 - Present',
         workPlace: 'Aalesund Data AS', workCity: 'Aalesund',
         description1: '- Worked in the store and kept track of storage/packages while also managing online orders from business clients. ',
         description2: '- Gained knowledge regarding data security and hardware in addition to experience managing large corporate systems with many customers.  ',
