@@ -1,15 +1,27 @@
 export const WORK_EXPERIENCE = [
     {
-        workTitle: 'Lead Developer', workDate: 'Jan. 2022 - June 2022',
-        workPlace: 'Cyberpop!', workCity: 'Hamar',
-        description1: '- Worked in a team comprising of students from INN University on the development of a 3D “Hack-and-Slash” game titled Cyberpop!',
-        description2: '- Responsible for planning and projection, gameplay programming, UI design, documentation and playtesting.',
+        workTitle: 'Store Employee', workDate: 'June 2023 - Present',
+        workPlace: 'Aalesund Data AS', workCity: 'Aalesund',
+        description1: '- Worked in the store and kept track of storage/packages while also managing online orders from business clients. ',
+        description2: '- Gained knowledge regarding data security and hardware in addition to experience managing large corporate systems with many customers.  ',
+        description3: '- Currently on-call in-case extra manpower is needed.',
     },
     {
-        workTitle: 'Lead Developer', workDate: 'Jan. 2020 - June 2020',
-        workPlace: 'Duck Studios', workCity: 'Hamar',
-        description1: '- Worked in a university game studio on the development of a platforming game titled Alters.',
-        description2: '- Responsible for gameplay programming and UI design in Unreal Engine.',
+        workTitle: 'Solo Project', workDate: 'Feb. 2024 – Present',
+        workPlace: 'Portfolio Site', workCity: 'Aalesund',
+        description1: '- Made a portfolio website for myself using React, has a fully working nested comments system such as buttons and components displaying data dynamically, planning to create backend. ',
+        description2: '- Link to repo: https://github.com/tobiasnes/portfolio-site',
+    },
+    {
+        workTitle: 'Solo Project', workDate: 'Nov. 2023 – Jan. 2024',
+        workPlace: 'Radar Project', workCity: 'Aalesund',
+        description1: '- Built a Furuno radar for a simulation company using Unity/C#.',
+        description2: 'Link to repo: https://github.com/tobiasnes/UnityRadar',
+    },
+    {
+        workTitle: 'Part-time Sterile Technician', workDate: 'Feb. 2018 – Aug. 2019',
+        workPlace: 'Colosseum Tannlege', workCity: 'Aalesund',
+        description1: 'Sterilized equipment for up to 16 dentists at a time.',
     },
 ];
 
